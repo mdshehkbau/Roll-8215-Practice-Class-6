@@ -1,0 +1,170 @@
+/* Universal Selecttor */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.header-area {
+    background-color: #0F91E3; 
+}
+.header-top {
+  overflow: hidden; 
+  margin-bottom: 10px;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.contact-number {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    padding-top: 18px;
+}
+.contact-number h3 {
+    color: #FFF;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social-icon ul {
+    margin: 0;
+    float: right;
+}
+.social-icon ul li {
+    float: left;
+    overflow: hidden;
+    list-style: none;
+}
+.social-icon ul li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 15px 10px;
+    display: block;
+    font-size: 13px;
+}
+
+/*** header-menu ***/
+
+.header-menu:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.main-menu ul {
+   margin: 0;
+
+}
+.main-menu ul li {
+    float: left;
+    list-style: none;
+}
+.main-menu ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-menu ul .anything a {
+	color: #3FA7E8;
+}
+.main-menu ul li:hover a {
+    color: #3FA7E8;
+}
+
+.button {
+    background-color: #DC242A;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 12px 25px;
+    color: #FFF;
+    letter-spacing: 1.5px;
+    border-radius: 3px;
+}
+.button:hover {
+    background-color: #1E6FAA;
+}
+.info {
+    float: right;
+    margin: 10px 0;
+}
+.student img {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+/* Class Selector */
+.admin-panel {
+    width: 40%;
+    border: 2px solid;
+    margin: 5% auto;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(74, 191, 199);
+    color: #ffffff;
+}
+.pg {
+    font-size: 16px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.pg a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+/* Combinator Selector */
+.admin-panel h2 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 10px 0;
+    font-family: 'Arial Narrow', Arial, sans-serif
+}
+/* Grouping Selector */
+input, label {
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+label {
+    font-size: 20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+input {
+    background-color: transparent;
+    border: 2px solid #FFF;
+}
+/* Attribute Selector */
+input[type="submit"] {
+    margin: 15px auto;
+}
+ /* Psudo Class Selector */
+ input:focus {
+    background-color: #ffffff;
+ }
+ input[type="submit"]:hover {
+    background-color: blue;
+    color: aqua;
+ }
+/* Ssudo Element Selector */
+input::placeholder {
+    color: #FFF;
+}
+.footer {
+    background-color: #3FA7E8;
+    padding: 20px 0 ;
+    color: #FFF;
+}
+
+
